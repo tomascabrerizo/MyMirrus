@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Graphics Component">
+      <UniqueIdentifier>{dbd86b0a-68d0-49eb-bd22-378a7780eb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Input Component">
+      <UniqueIdentifier>{6168ee39-a540-4101-bd52-60bb778b4253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Helper Component">
+      <UniqueIdentifier>{b41c8269-459f-468e-b13f-18054f8a7337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Graphics Component">
+      <UniqueIdentifier>{68e9dd27-9e2b-428c-bc75-21c9d266f6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Input Component">
+      <UniqueIdentifier>{4d7355c0-8d2f-4d02-9de1-b5ecde8db20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Helper Component">
+      <UniqueIdentifier>{60f7e5bb-c289-40e4-b39a-4c212db7ddd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="mrABO.cpp">
+      <Filter>Archivos de origen\Graphics Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrAnimation.cpp">
+      <Filter>Archivos de origen\Graphics Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrRGBAImage.cpp">
+      <Filter>Archivos de origen\Graphics Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrScreen.cpp">
+      <Filter>Archivos de origen\Graphics Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrSurface.cpp">
+      <Filter>Archivos de origen\Graphics Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrTemplateSet.cpp">
+      <Filter>Archivos de origen\Graphics Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrTexture.cpp">
+      <Filter>Archivos de origen\Graphics Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrWindow.cpp">
+      <Filter>Archivos de origen\Graphics Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrInputManager.cpp">
+      <Filter>Archivos de origen\Input Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrKeyboard.cpp">
+      <Filter>Archivos de origen\Input Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrMouse.cpp">
+      <Filter>Archivos de origen\Input Component</Filter>
+    </ClCompile>
+    <ClCompile Include="mrTimer.cpp">
+      <Filter>Archivos de origen\Helper Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mrABO.h">
+      <Filter>Archivos de encabezado\Graphics Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrAnimation.h">
+      <Filter>Archivos de encabezado\Graphics Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrRGBAImage.h">
+      <Filter>Archivos de encabezado\Graphics Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrScreen.h">
+      <Filter>Archivos de encabezado\Graphics Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrSurface.h">
+      <Filter>Archivos de encabezado\Graphics Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrTemplateSet.h">
+      <Filter>Archivos de encabezado\Graphics Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrTexture.h">
+      <Filter>Archivos de encabezado\Graphics Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrWindow.h">
+      <Filter>Archivos de encabezado\Graphics Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrInputManager.h">
+      <Filter>Archivos de encabezado\Input Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrKeyboard.h">
+      <Filter>Archivos de encabezado\Input Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrMouse.h">
+      <Filter>Archivos de encabezado\Input Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrDataTypes.h">
+      <Filter>Archivos de encabezado\Helper Component</Filter>
+    </ClInclude>
+    <ClInclude Include="mrTimer.h">
+      <Filter>Archivos de encabezado\Helper Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
