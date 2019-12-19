@@ -187,8 +187,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInst, LPSTR lpCmdLine, in
 
 	//Create Window
 	window.Create(hInstance, "Game_Engine_DEMO");
-	window.SetPosition(10, 10);
-	window.SetSize(800, 600);
+	window.SetPosition(150, 50);
+	window.SetSize(600, 500);
 
 	window.SetupDirect3D();
 	//Enter MessageLoop
