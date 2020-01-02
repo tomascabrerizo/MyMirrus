@@ -58,6 +58,11 @@ enum mrError32
 	mrErrorCreateSoundDevice = 33,
 	mrErrorSetCoperativeLevel = 34,
 	mrErrorWaveNotSupported = 35,
+	mrErrorCreateSoundBuffer = 36,
+	mrErrorSoundBufferLock = 37,
+	mrErrorSoundSetVolume = 38,
+	mrErrorPlay = 39,
+	mrErrorStop = 40,
 
 	mrError32_Force32 = 0xFFFFFFFF
 };

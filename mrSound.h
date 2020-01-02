@@ -1,7 +1,7 @@
 #include "mrDataTypes.h"
 #include "mrSoundPlayer.h"
 #include "windows.h"
-#include <fstream.h>
+#include <fstream>
 #include <dsound.h>
 
 #pragma once
