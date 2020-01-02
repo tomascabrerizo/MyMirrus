@@ -55,6 +55,9 @@ enum mrError32
 	mrErrorJoystickSetProperty = 30,
 	mrErrorJoystickAcquire = 31,	
 	mrErrorJoystickGetDeviceState = 32,
+	mrErrorCreateSoundDevice = 33,
+	mrErrorSetCoperativeLevel = 34,
+	mrErrorWaveNotSupported = 35,
 
 	mrError32_Force32 = 0xFFFFFFFF
 };
