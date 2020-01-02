@@ -44,6 +44,17 @@ enum mrError32
 	mrErrorKeyboardSetCooperativeLevel = 19,
 	mrErrorKeyboardAcquire = 20,
 	mrErrorKeyboardGetDeviceData = 21,
+	mrErrorMouseCreateDevice = 22,
+	mrErrorMouseSetDataFormat = 23,
+	mrErrorMouseSetCooperativeLevel = 24,
+	mrErrorMouseSetProperty = 25,
+	mrErrorMouseGetDeviceData = 26,
+	mrErrorJoystickEnumDevices = 27,
+	mrErrorJoystickSetDataFormat = 28,
+	mrErrorJoystickSetCooperativeLevel = 29,
+	mrErrorJoystickSetProperty = 30,
+	mrErrorJoystickAcquire = 31,	
+	mrErrorJoystickGetDeviceState = 32,
 
 	mrError32_Force32 = 0xFFFFFFFF
 };

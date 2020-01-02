@@ -9,7 +9,7 @@ class mrMouse
 protected:
 	/*Direct input objects*/
 	LPDIRECTINPUTDEVICE8 m_lpkDiDevice;
-	DIDEVICEOBJECTDATA m_akDeviceData[8];
+	DIDEVICEOBJECTDATA m_akDeviceData [8];
 public:
 	/*Constructor and destructor*/
 	mrMouse(void);
@@ -20,10 +20,9 @@ public:
 	mrError32 Update(void);
 
 	mrBool32 IsButtonDown(mrUInt32 iButton);
-	mrBool32 IsButtomUp(mrUInt32 iButton);
+	mrBool32 IsButtonUp(mrUInt32 iButton);
 	mrUInt32 GetXAxis(void);
 	mrUInt32 GetYAxis(void);
 	
 	mrError32 Clear(void);
 };
-
